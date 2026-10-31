@@ -1,31 +1,45 @@
-p {
-    color: #2c00f1;
+
+body {
+    background-color: #171717;
+    color: white;
+    font-family: Arial;
 }
 
-.advertencia {
-    font-weight: bold;
-    background-color: #bf0000;
+h1 {
+    text-align: center;
+    color: #e5b80b;
 }
 
-#advertencia-leve{
-    background-color: #e0d100;
+.subtitulo {
+    text-align: center;
+    color: gray;
+}
+
+table {
+    width: 80%;
+    margin: auto;
+    border-spacing: 15px;
 }
 
 td {
-    padding: 5px;
-    text-align: center;
-    color: aqua;
+    padding: 10px;
+    background-color: #292929;
+    border-radius: 8px;
 }
 
 .img {
-    width: 50px;
-    height: 50px;
-    align-items: center;
-    color: white;
-    background-color: black;
+    width: 150px;
 }
 
-#calificacion {
-    color: #ffd500;
+img {
+    border-radius: 5px;
+}
+
+h2 {
+    color: #e5b80b;
+}
+
+.duracion {
+    color: #49c5b6;
     font-weight: bold;
 }
